@@ -1,50 +1,49 @@
-# 🧠 Daily DSA Grind 💻
+![image](https://github.com/user-attachments/assets/13bdecac-981d-4b33-bcb8-09a140be5370)
 
-Welcome to my **Daily DSA Commit Journal** – a personal journey to sharpen my problem-solving skills and master Data Structures & Algorithms through consistent daily practice.
 
-## 📅 Goal
 
-✅ **Solve and commit DSA problems every single day**  
-✅ **Dedicate at least 3 hours daily to learning and practicing** 
+# Daily DSA Commit Journal
 
----
+This repository documents my daily commitment to mastering Data Structures and Algorithms (DSA) through consistent practice and self-discipline.
 
-## 💪 My Pledge
+## Purpose
 
-> _"I, Gurucharan Vemuru, pledge to dedicate a minimum of **3 hours every day** to learning, solving, and mastering DSA problems. No excuses. Just growth."_  
+The objective of this repository is to:
+- Practice and solve DSA problems on a daily basis
+- Dedicate a minimum of 3 hours each day to learning and implementation
+- Track personal progress and continuously improve problem-solving skills
 
----
+## Personal Commitment
 
-## 📚 Topics I’ll Cover
+"I, Gurucharan Vemuru, pledge to dedicate a minimum of **three hours every day** to learning, solving, and refining my understanding of Data Structures and Algorithms. This is a focused effort to enhance my technical foundation and prepare for real-world problem-solving."
 
-- Arrays & Strings
-- Linked Lists
-- Stacks & Queues
-- Trees & Graphs
-- Recursion & Backtracking
-- Dynamic Programming
-- Greedy Algorithms
-- Heaps & Hashing
-- Bit Manipulation
-- Sliding Window, Two Pointers, and more...
+## Coverage Areas
 
----
+The topics I will focus on include, but are not limited to:
 
-## 🔗 Useful Links
+- Arrays and Strings  
+- Linked Lists  
+- Stacks and Queues  
+- Trees and Graphs  
+- Recursion and Backtracking  
+- Dynamic Programming  
+- Greedy Algorithms  
+- Heaps and Hash Tables  
+- Bit Manipulation  
+- Sliding Window, Two Pointers, and other common patterns  
+
+# Resources for Practice
 
 - [LeetCode](https://leetcode.com/)
-- [GeeksForGeeks](https://www.geeksforgeeks.org/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
 - [HackerRank](https://www.hackerrank.com/)
 - [InterviewBit](https://www.interviewbit.com/)
 
----
+## Open Collaboration
 
-## 🙌 Join Me?
-
-If you stumble upon this repo and are on a similar journey — feel free to fork, star 🌟, or even join the grind. Let’s get better together.
+If you are on a similar journey, feel free to explore, fork, or contribute. This repository is open to learning enthusiasts who are committed to consistent improvement in problem-solving and coding efficiency.
 
 ---
 
-### 📈 Let the grind begin. One day at a time. One problem at a time.
-
+**Consistency over intensity. Progress over perfection.**
 
