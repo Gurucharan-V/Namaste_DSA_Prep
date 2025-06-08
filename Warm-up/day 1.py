@@ -111,3 +111,37 @@ def checks_whether_it_is_even_or_odd(n):
         print("odd")
         
 checks_whether_it_is_even_or_odd(19)
+
+
+# Write a program to print all even numbers from an array.
+
+# Example array: [10, 3, 5, 2, 7, 6, 9]
+
+# Expected Output: 10 2 6
+
+# Approach
+# Iterate through each element in the array.
+# Check if the element is divisible by 2.
+# If yes, print the element (it’s even).
+# Example
+
+# Input: [10, 3, 5, 2, 7, 6, 9]
+# Output: 10 2 6
+
+
+ip = [10, 3, 5, 2, 7, 6, 9]
+arr = [1,2,3,43,54,5,65,73,4,523,523,523,564,3,2,5,2356,423,12,1,43,1,354,32,523,5,235]
+
+for x in (ip):
+    if x % 2 ==0:
+        print(x, end=" ")
+        
+        
+def eve(n):
+    i=0
+    while i < len(n):
+        if n[i] %2==0:
+            print(n[i], end = ", ")
+        i += 1
+        
+eve(arr)
