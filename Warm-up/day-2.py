@@ -89,14 +89,19 @@ arr = [2, -6, 4, 8, 1, -9]
 # Space Complexity: O(1) – only a counter variable is used.
 
 #using for
+arr = [12,3,12,32,31,31,23,-45,3,42,-42,-34,-31,4,-14,-13,]
 
-print("Maximum value:", n)
-n = 0            
-for x in arr:
-    if n>x:
-        n = x 
 
-print(n)
+
+def findneg(n):
+    a = 0
+    for x in arr:
+        if a > x:
+            a = x
+    print(a)
+    
+    
+findneg(arr)
 
 
 #using while
