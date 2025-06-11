@@ -52,3 +52,26 @@ def larger(n):
     return b
 
 print(larger(arr))
+
+
+# Write a function secondLargest(arr) that takes an array of numbers and returns the second largest unique number in the array.
+
+# Requirements
+# The array must contain at least two numbers.
+# If the array contains all equal elements or only one unique element, return: "No second largest found"
+# If the array has less than two elements, return: "Array should have at least two numbers"
+
+
+
+arr = [9,12,23]
+
+def sndlrg(n):
+    a = 0
+    b = 0
+    for x in range(len(n)):
+        a = b
+        if n[x] > b:
+            b = n[x]
+    return a
+    
+print(sndlrg(arr))
