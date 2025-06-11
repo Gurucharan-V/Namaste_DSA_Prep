@@ -17,4 +17,38 @@ def idxlar(n):
 print(idxlar(arr))
 
 
+#Question
+# Write a function that returns the smallest number in an array. 
 
+# Input: arr = [2, -6, 4, 8, 1, -9]
+# Output: -9
+
+
+def smlnum(n):
+    b=0
+    for x in n:
+        if x < b:
+            b = x
+    return b
+
+print(smlnum(arr))
+
+
+# Write a function that returns the largest number in an array.
+
+# Approach
+# Initialize a variable largest to -Infinity.
+# Loop through the array.
+# If the current element is greater than largest, update largest.
+# Return largest after the loop ends.
+
+
+
+def larger(n):
+    b=0
+    for x in range(len(n)):
+        if n[x] > b:
+            b = n[x]
+    return b
+
+print(larger(arr))
