@@ -57,7 +57,7 @@ for x in m:
     if x > a:
         b = a
         a = x
-    elif( x > b and x != a):
+    elif(x > b and x != a): #x>b is checks for is any negitive number present in array! where as x!=a checks for any duplicates!
         b = x
 print(b)
 
