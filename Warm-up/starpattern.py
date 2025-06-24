@@ -88,3 +88,16 @@ for x in range(x,-1, -1):
     for y in range(x):
         r+= str(y+1)
     print(r)
+
+
+# 1
+# 22
+# 333
+# 4444
+# 55555
+
+
+for x in range(5):
+    for y in range(x+1):
+        print(x+1, end = " ")
+    print()
