@@ -101,3 +101,47 @@ for x in range(5):
     for y in range(x+1):
         print(x+1, end = " ")
     print()
+
+
+
+    
+# 12345
+# 1234
+# 123
+# 12
+# 1
+
+for x in range(5,-1,-1):
+    r=""
+    for y in range(x):
+        r+= str(y+1)
+    print(r)
+
+
+for x in range(5):
+    r=""
+    for y in range(5-x):
+        r+= str(y+1)
+    print(r)
+
+# *****
+# ****
+# ***
+# **
+# *
+
+for x in range(5,-1,-1):
+    for y in range(x):
+        print("*", end = "")
+    print()
+
+#     *
+#    **
+#   ***
+#  ****
+# *****
+for x in range(n):
+    print(" "*(n-(x+1)), end="")
+    for y in range(x+1):
+        print("*", end="")
+    print()
