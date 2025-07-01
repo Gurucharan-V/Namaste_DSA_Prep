@@ -145,3 +145,50 @@ for x in range(n):
     for y in range(x+1):
         print("*", end="")
     print()
+
+
+#     *
+#    **
+#   ***
+#  ****
+# *****
+
+for x in range(5):
+    r=""
+    for y in range(5-(x+1)):
+        r+=" "
+    for z in range(x+1):
+        r+="8 "
+    print(r)
+
+
+
+# 1
+# 10
+# 101
+# 1010
+# 10101
+
+for x in range(5):
+    r=""
+    for y in range(x+1):
+        if y % 2 == 0:
+            r+=str(1)
+        else:
+            r+=str(0)
+    print(r)
+
+    
+# 0
+# 10
+# 101
+# 0101
+# 01010
+
+t=0
+for x in range(5):
+    r=""
+    for y in range(x+1):
+        r+=str(t)
+        t=0 if t==1 else 1
+    print(r)
