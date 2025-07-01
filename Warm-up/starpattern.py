@@ -168,6 +168,13 @@ for x in range(5):
 # 101
 # 1010
 # 10101
+t=1
+for x in range(5):
+    r=""
+    for y in range(x+1):
+        r+=str(t)
+        t=1 if t==0 else 0
+    print(r)
 
 for x in range(5):
     r=""
