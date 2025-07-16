@@ -1,0 +1,16 @@
+def abba(m):
+    if  m ==1:
+        return 1
+    
+    return m*abba(m-1)
+    
+print(abba(5))
+
+
+dedef abba(m):
+    if  m ==0:
+        return 0
+    
+    return m+abba(m-1)
+    
+print(abba(5))
