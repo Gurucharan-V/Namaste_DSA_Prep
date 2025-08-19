@@ -23,6 +23,7 @@ class MyLinkedList:
         while temp.ref:
             temp = temp.ref
         temp.ref = new
+        self.size+=1
         
         
     def addindex(self,ind,val):
@@ -30,11 +31,16 @@ class MyLinkedList:
         temp = self.head
         counter = 0
         
+        if ind == 0:
+            self.addhead(val)
+            return
+        
         while counter < ind-1:
             temp = temp.ref
             counter+=1
         new.ref = temp.ref
         temp.ref = new
+        self.size +=1
         
     def getindex(self, ind):
         temp = self.head
@@ -60,9 +66,12 @@ a.addhead(10)
 a.addtail(13)
 
 a.addindex(2,12)
+a.addindex(0,9)
 
 
 a.printns()
 
-print(a.getindex(0))
+print(a.size)
+
+print(a.getindex(a.size-1))
 
