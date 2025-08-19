@@ -43,6 +43,8 @@ class MyLinkedList:
         self.size +=1
         
     def getindex(self, ind):
+        if ind >= self.size:
+            return -1
         temp = self.head
         counter = 0
         while counter < ind:
@@ -51,12 +53,21 @@ class MyLinkedList:
         return temp.val
         
         
-        
     def printns(self):
         temp = self.head
         while temp:
             print(temp.val)
             temp = temp.ref
+            
+    def delnode(self,ind):
+        temp = self.head
+        counter = 0
+        while counter <= ind:
+            temp = temp.ref
+        print(temp.val)
+            
+        
+            
         
         
 a = MyLinkedList()
@@ -68,10 +79,13 @@ a.addtail(13)
 a.addindex(2,12)
 a.addindex(0,9)
 
+a.delnode(3)
+
 
 a.printns()
 
-print(a.size)
+# print(a.size)
+
 
 print(a.getindex(a.size-1))
 
